@@ -1,4 +1,3 @@
-
 * {
   padding: 0;
   margin: 0;
@@ -14,7 +13,6 @@ body {
   background-image: radial-gradient(#d7cdbd 1px, transparent 1px);
   background-size: 10px 10px;
 }
-
 
 header {
   height: 100vh;
@@ -214,7 +212,6 @@ header {
   /* background-color: white; */
 }
 
-
 .card h3 {
   font-size: 1.2rem;
   font-weight: 600;
@@ -224,3 +221,32 @@ header {
   color: #555;
 }
 
+/*  skills */
+#skills {
+  padding: 2rem 0;
+}
+
+.skills-grid {
+  /* background-color: teal; */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+}
+
+.skill-item {
+  
+  margin-top: 20px;
+  /* background-color: indigo; */
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+
+}
+
+.skill-item span{
+  background-color: #f0ede8;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 20px -5px rgba(54, 54, 54, 0.4);
+
+}

@@ -32,4 +32,11 @@
     margin-top: 0;
     /* background-color: white; */
   }
+
+  .skills-grid {
+  /* background-color: teal; */
+  display: grid;
+  grid-template-columns: 1fr ;
+  gap: 1rem;
+}
 }
