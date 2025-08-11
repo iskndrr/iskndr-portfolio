@@ -22,21 +22,25 @@
 
   .feature-card {
     grid-template-columns: 1fr;
-    gap: 1rem ;
+    gap: 1rem;
   }
-.card h3 {
-  font-size: 1.1rem;
-  font-weight: 600;
-}
+  .card h3 {
+    font-size: 1.1rem;
+    font-weight: 600;
+  }
   .card:nth-child(odd) {
     margin-top: 0;
     /* background-color: white; */
   }
 
   .skills-grid {
-  /* background-color: teal; */
-  display: grid;
-  grid-template-columns: 1fr ;
-  gap: 1rem;
-}
+    /* background-color: teal; */
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .projects {
+    grid-template-columns: 1fr;
+  }
 }
