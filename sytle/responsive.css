@@ -54,19 +54,26 @@
   .links {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 0.5rem;
   }
-
+/* #experince .container{
+  background-color: aquamarine;
+} */
  .hide{
   display: none;
  }
  .timeline-card{
   /* background-color: red; */
   width: 100%;
+}
+.timeline-card .info{
+   font-size: .6rem;
+
  }
  .timeline-item{
   /* background-color: tan; */
   width: 100%;
+  font-size: .7rem;
+  text-align: center;
   
  }
  .timeline-item span {
