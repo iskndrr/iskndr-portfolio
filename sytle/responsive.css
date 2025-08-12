@@ -57,5 +57,22 @@
     gap: 0.5rem;
   }
 
- 
+ .hide{
+  display: none;
+ }
+ .timeline-card{
+  /* background-color: red; */
+  width: 100%;
+ }
+ .timeline-item{
+  /* background-color: tan; */
+  width: 100%;
+  
+ }
+ .timeline-item span {
+  display: none;
+ }
+ .timeline-item time{
+  font-size: smaller;
+ }
 }
