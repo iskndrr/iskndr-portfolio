@@ -4,6 +4,114 @@
   box-sizing: border-box;
 }
 
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.poppins-extralight {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.poppins-black {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.poppins-thin-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.poppins-extralight-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.poppins-light-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.poppins-regular-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.poppins-medium-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.poppins-semibold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.poppins-bold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.poppins-extrabold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.poppins-black-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
 body {
   font-family: "Helvetica Neue", sans-serif;
   color: #111;
@@ -205,9 +313,10 @@ header {
   height: fit-content;
   border-radius: 10px;
   box-shadow: 5px 5px 20px -5px rgba(54, 54, 54, 0.4);
-transition: all .5s ease;}
+  transition: all 0.5s ease;
+}
 
-.card:hover{
+.card:hover {
   transform: scale(1.08);
 }
 .card:nth-child(odd) {
@@ -249,10 +358,10 @@ transition: all .5s ease;}
   padding: 10px;
   border-radius: 10px;
   box-shadow: 5px 5px 20px -5px rgba(54, 54, 54, 0.4);
-transition: all .5s ease;
+  transition: all 0.5s ease;
 }
 
-.skill-item span:hover{
+.skill-item span:hover {
   transform: scale(1.08);
 }
 
@@ -273,10 +382,10 @@ transition: all .5s ease;
   background-size: 10px 10px;
   border-radius: 20px;
   box-shadow: 5px 5px 20px -5px rgba(54, 54, 54, 0.4);
-  transition: all .5s ease;
+  transition: all 0.5s ease;
 }
 
-.project-card:hover{
+.project-card:hover {
   transform: translateY(-5px);
 }
 .project-card img {
@@ -288,19 +397,23 @@ transition: all .5s ease;
 
 .project-content {
   /* background-color: red; */
+  position: relative;
   padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 300px;
 }
 
 .project-content h3 {
   font-size: 1.2rem;
 }
 .project-content p {
-  color: #555;
+  /* color: #555; */
   margin: 1rem 0;
 }
 
 .project-links {
-  /* background-color: red; */
   display: flex;
   gap: 2rem;
 }
@@ -311,8 +424,7 @@ transition: all .5s ease;
   padding: 10px;
   border-radius: 10px;
   box-shadow: 5px 5px 20px -5px rgba(54, 54, 54, 0.568);
-transition: all .5s ease;
-
+  transition: all 0.5s ease;
 }
 
 .btn-secondary {
@@ -339,13 +451,45 @@ transition: all .5s ease;
 }
 
 .see-more-btn:hover {
- background-color: #f0ede8;
+  background-color: #f0ede8;
   background-image: radial-gradient(#d7cdbd 1px, transparent 1px);
   background-size: 10px 10px;
   transform: scale(1.1);
 }
 
-
-.btn:hover{
+.btn:hover {
   transform: scale(1.08);
+}
+
+/* footet */
+
+#footer {
+  padding-top: 2rem;
+  background-color: #f0ede8;
+}
+
+#footer .container {
+  border-top: 1px solid;
+  padding: 2rem 0;
+}
+.footer-grid {
+  /* background-color: white; */
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+.link a {
+  text-decoration: none;
+  color: black;
 }

@@ -43,4 +43,17 @@
   .projects {
     grid-template-columns: 1fr;
   }
+  .footer-grid {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  .social-links {
+    /* background-color: red; */
+    margin: 2rem 0;
+  }
+  .links{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: .5rem;
+  }
 }
