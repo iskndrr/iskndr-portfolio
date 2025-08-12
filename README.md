@@ -18,5 +18,4 @@ Built with **HTML**, **CSS**, and **JavaScript**, with a focus on responsive des
 - CSS3
 - JavaScript
 
-## 📄 License
-This project is open source and available under the [MIT License](LICENSE).
+
