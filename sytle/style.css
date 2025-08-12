@@ -481,7 +481,6 @@ header {
   align-items: center;
 }
 
-
 .links {
   display: flex;
   justify-content: space-between;
@@ -493,3 +492,97 @@ header {
   text-decoration: none;
   color: black;
 }
+
+.link-slide {
+  position: relative;
+  color: #555;
+  font-weight: 500;
+}
+
+.link-slide::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 0;
+  height: 1px;
+  background: #555;
+  transition: width 0.3s ease;
+}
+
+.link-slide:hover::after {
+  width: 100%;
+}
+/* experince */
+#experince {
+  padding: 2rem 0;
+}
+
+
+.timeline-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin: 2rem 0;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.timeline-item {
+  background-color: #f0ede8;
+  padding: 1.5rem;
+  height: fit-content;
+  line-height: 2rem;
+  border-radius: 15px;
+  box-shadow: 5px 5px 20px -5px rgba(54, 54, 54, 0.4);
+}
+
+.timeline-item .content ul {
+  margin: 0 1rem;
+  font-size: small;
+  color: #555;
+}
+
+
+.timeline-card {
+  background-color: #f0ede8;
+  box-shadow: 5px 5px 20px -5px rgba(54, 54, 54, 0.4);
+margin: 0 auto;
+  width: 250px;
+  object-fit: contain;
+  padding: 1rem;
+  border-radius: 25px;
+}
+
+.img-card img {
+  width: 100%;
+  border-radius: 25px;
+}
+.littile-img {
+  padding: 1rem 0;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.littile-img img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: contain;
+}
+
+.info {
+  font-size: small;
+  /* display: block; */
+  /* background-color: #333; */
+}
+
+.info time {
+  color: #555;
+}
+
+
+.timeline-item .content span, time{
+  color: #555;
+}
+

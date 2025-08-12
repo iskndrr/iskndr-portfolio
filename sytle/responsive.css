@@ -51,9 +51,11 @@
     /* background-color: red; */
     margin: 2rem 0;
   }
-  .links{
+  .links {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: .5rem;
+    gap: 0.5rem;
   }
+
+ 
 }
