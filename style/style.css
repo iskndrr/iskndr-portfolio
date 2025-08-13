@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  
 }
 
 
@@ -17,6 +18,7 @@ body {
   font-family: "Helvetica Neue", sans-serif;
   color: #111;
   line-height: 1.6;
+  overflow-x: hidden;
 
   background-color: #f0ede8;
   background-image: radial-gradient(#d7cdbd 1px, transparent 1px);
@@ -38,7 +40,7 @@ header {
 }
 
 .hero-content .intro {
-  font-size: 1.1rem;
+  font-size: 1rem;
   color: #555;
   margin-bottom: 1.2rem;
 }

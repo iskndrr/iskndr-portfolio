@@ -2,11 +2,11 @@
 
 @media (max-width: 760px) {
   .hero-content h1 {
-    font-size: 3rem;
-  }
-
-  .outlined-text {
     font-size: 2.5rem;
+  }
+ 
+  .outlined-text {
+    font-size: 2rem;
   }
 
   .section-subtitle {
@@ -55,31 +55,29 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
-/* #experince .container{
+  /* #experince .container{
   background-color: aquamarine;
 } */
- .hide{
-  display: none;
- }
- .timeline-card{
-  /* background-color: red; */
-  width: 100%;
-}
-.timeline-card .info{
-   font-size: .6rem;
-
- }
- .timeline-item{
-  /* background-color: tan; */
-  width: 100%;
-  font-size: .7rem;
-  text-align: center;
-  
- }
- .timeline-item span {
-  display: none;
- }
- .timeline-item time{
-  font-size: smaller;
- }
+  .hide {
+    display: none;
+  }
+  .timeline-card {
+    /* background-color: red; */
+    width: 100%;
+  }
+  .timeline-card .info {
+    font-size: 0.6rem;
+  }
+  .timeline-item {
+    /* background-color: tan; */
+    width: 100%;
+    font-size: 0.7rem;
+    text-align: center;
+  }
+  .timeline-item span {
+    display: none;
+  }
+  .timeline-item time {
+    font-size: smaller;
+  }
 }
