@@ -17,9 +17,6 @@
 body {
   font-family: "Helvetica Neue", sans-serif;
   color: #111;
-  line-height: 1.6;
-  overflow-x: hidden;
-
   background-color: #f0ede8;
   background-image: radial-gradient(#d7cdbd 1px, transparent 1px);
   background-size: 10px 10px;
@@ -27,7 +24,6 @@ body {
 
 header {
   height: 100vh;
-  /* background-color: red; */
   display: flex;
   justify-content: center;
   align-items: center;
